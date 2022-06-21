@@ -5,7 +5,8 @@
             [cssClasses]="'text--error'" [info]="errorMesage">
         </app-info-card-presentational>
 
-        <!--TODO1: turn this (grid) into a presentational component -->
+        <!--TODO1: turn the grid rows into cards for monile screeens -->
+         <!--TODO2: turn this (grid) into a presentational component -->
         <kendo-grid [kendoGridBinding]="(teamsData$ | async)!" [sortable]="false" class="border--rounded"
             [loading]="flags.areTeamsLoading">
 
